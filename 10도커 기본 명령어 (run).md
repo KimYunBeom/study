@@ -98,9 +98,13 @@ $ docker exec -it mysql2 mysql
 ```
 $ docker run -d -p 8080:80 -e WORDPRESS_DB_HOST=host.docker.internal:3307 -e WORDPRESS_DB_NAME=wp -e WORDPRESS_DB_USER=wp -e WORDPRESS_DB_PASSWORD=wp wordpress
 
+# 웹 브라우저 접속
+http://localhost:8080
+
 $ docker exec -it mysql2 mysql
 > show databases;
 > use wp
 > show tables;
 > select * from wp_users;
+> quit
 ```
