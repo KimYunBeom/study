@@ -256,3 +256,9 @@ $npm i axios
 ```
 $npm i vue-spinner
 ```
+
+### add bootstrap
+
+```
+$npm i bootstrap@5.2.3
+```

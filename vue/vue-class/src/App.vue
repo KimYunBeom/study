@@ -1,9 +1,11 @@
 <template>
-  <Header />
-  <hr />
-  <router-view />
-  <hr />
-  <Footer />
+  <div class="container py-4 px-3 mx-auto">
+    <Header />
+    <hr />
+    <router-view />
+    <hr />
+    <Footer />
+  </div>
 </template>
 
 <script setup>
