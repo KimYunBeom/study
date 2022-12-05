@@ -59,6 +59,9 @@
           <li class="nav-item">
             <router-link class="nav-link" to="/C14">C14</router-link>
           </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/C15">C15</router-link>
+          </li>
         </ul>
       </div>
     </div>
