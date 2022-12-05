@@ -11,6 +11,7 @@ const router = createRouter({
     { path: '/C01', name: 'C01', component: C01 },
     { path: '/C02', name: 'C02', component: () => import('@/views/C02.vue') }, // lazy loading
     { path: '/C03', name: 'C03', component: C03 },
+    { path: '/C04', name: 'C04', component: () => import('@/views/C04.vue') },
   ],
 });
 

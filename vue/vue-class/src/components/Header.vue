@@ -6,6 +6,7 @@
     <div><router-link to="/C01">C01</router-link></div>
     <div><router-link to="/C02">C02</router-link></div>
     <div><router-link to="/C03">C03</router-link></div>
+    <div><router-link to="/C04">C04</router-link></div>
   </nav>
 </template>
 
