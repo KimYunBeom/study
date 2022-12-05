@@ -244,3 +244,9 @@ $npm i vue-router
 ```
 $npm i pinia
 ```
+
+### add axios
+
+```
+$npm i axios
+```
