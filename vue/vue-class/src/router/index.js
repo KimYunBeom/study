@@ -16,6 +16,7 @@ const router = createRouter({
     { path: '/C06', name: 'C06', component: () => import('@/views/C06.vue') },
     { path: '/C07', name: 'C07', component: () => import('@/views/C07.vue') },
     { path: '/C08', name: 'C08', component: () => import('@/views/C08.vue') },
+    { path: '/C09', name: 'C09', component: () => import('@/views/C09.vue') },
   ],
 });
 
