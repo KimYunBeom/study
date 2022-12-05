@@ -1,0 +1,37 @@
+<template>
+  <nav>
+    <div>
+      <router-link to="/">Home</router-link>
+    </div>
+    <div><router-link to="/C01">C01</router-link></div>
+    <div><router-link to="/C02">C02</router-link></div>
+  </nav>
+</template>
+
+<script setup></script>
+
+<style scoped>
+nav {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+
+nav div:after {
+  margin: 0 4px;
+  content: '';
+}
+
+nav div a {
+  text-decoration: none;
+}
+
+nav div a:visited {
+  color: mediumslateblue;
+}
+
+nav div a:hover {
+  color: orange;
+}
+</style>

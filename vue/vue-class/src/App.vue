@@ -1,9 +1,14 @@
 <template>
-  <C />
+  <Header />
+  <hr />
+  <router-view />
+  <hr />
+  <Footer />
 </template>
 
 <script setup>
-import C from '@/views/C01.vue';
+import Header from './components/Header.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <style>

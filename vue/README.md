@@ -221,3 +221,9 @@ $cd vue-class
 $npm i
 $npm run dev
 ```
+
+### add vue-router
+
+```
+$npm i vue-router
+```
