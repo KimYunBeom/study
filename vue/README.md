@@ -238,3 +238,9 @@ $npm run dev
 ```
 $npm i vue-router
 ```
+
+### add pinia
+
+```
+$npm i pinia
+```
