@@ -55,6 +55,17 @@
 #### vue-class : C01 ~ C12
 
 1. Compare v-model with ref to v-model without ref
+1. vue-router
+1. props : 부모의 값 -> 자식
+1. emits : 자식의 함수 -> 부모
+1. Lifecycle Hooks : onMounted(), onUpdated(), onUnmounted() ... , onDeactivated()
+1. computed 1
+1. computed 2
+1. computed vs watch
+1. JavaScript Web API, ajax : fetch
+1. Node.js ajax : axios
+1. vue-spinner
+1. State Management : Vuex(X), Pinia(O)
 
 ### 구현 방식(API Preference)
 
