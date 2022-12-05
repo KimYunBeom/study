@@ -52,6 +52,10 @@
 1. Composing with Components 2: \<ComponentName \/\>
 1. Composing with Components 3: \<ComponentName \/\>
 
+#### vue-class : C01 ~ C12
+
+1. Compare v-model with ref to v-model without ref
+
 ### 구현 방식(API Preference)
 
 https://vuejs.org/tutorial/#step-1
