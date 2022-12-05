@@ -250,3 +250,9 @@ $npm i pinia
 ```
 $npm i axios
 ```
+
+### add vue-spinner
+
+```
+$npm i vue-spinner
+```

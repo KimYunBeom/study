@@ -15,6 +15,7 @@
     <div><router-link to="/C10">C10</router-link></div>
     <div><router-link to="/C11">C11</router-link></div>
     <div><router-link to="/C12">C12</router-link></div>
+    <div><router-link to="/C13">C13</router-link></div>
   </nav>
 </template>
 
