@@ -1,1 +1,1 @@
-# study-docker
+# study-typescript
