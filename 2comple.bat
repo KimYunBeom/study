@@ -1,0 +1,2 @@
+cd typescript
+tsc app

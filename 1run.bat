@@ -1,0 +1,2 @@
+cd typescript
+npm start
