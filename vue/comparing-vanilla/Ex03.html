@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conditionals (조건문) - Vanilla 비교</title>
+</head>
+
+<body>
+  <div id="app-3">
+    <span>Now you see me</span>
+  </div>
+  <script>
+    let seen = true;
+
+    let displayOption;
+    if (seen) {
+      displayOption = 'inline';
+    } else {
+      displayOption = 'none';
+    }
+
+    document.querySelector('#app-3').querySelector('span').style.display = displayOption;
+  </script>
+</body>
+
+</html>

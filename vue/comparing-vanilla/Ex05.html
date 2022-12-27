@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Handling User Input, methods and Event (사용자 입력 다루기) - Vanilla 비교</title>
+</head>
+
+<body>
+  <div id="app-5">
+    <p>{{ message }}</p>
+    <button onclick="reverseMessage();">Reverse Message</button>
+  </div>
+  <script>
+    const pElement = document.querySelector('#app-5').querySelector('p');
+
+    const message = 'Hello Vue.js!';
+
+    const reverseMessage = () => {
+      message = message.split('').reverse().join('');
+      pElement.innerText = message;
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Composing with Components - app-nav (구성 요소를 조립) - Vanilla 비교</title>
+  <style>
+    li {
+      list-style: none;
+      float: left;
+      margin: 0 5px;
+    }
+
+    li a {
+      text-decoration: none;
+    }
+
+    li a:hover {
+      color: orange;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app-9">
+    <app-nav v-for="item in navList" v-bind:menu="item" v-bind:key="item.seq"> </app-nav>
+  </div>
+  <script>
+    const appNavElement = document.querySelector('#app-9 app-nav');
+
+    const navList = [
+      { seq: 0, text: 'Home', url: '#', target: '_self' },
+      { seq: 1, text: 'Google', url: 'http://google.com', target: '_blank' },
+      { seq: 2, text: 'Naver', url: 'http://naver.com', target: '_blank' },
+    ];
+
+    let template = '';
+    for (const menu of navList) {
+      template += `
+        <li>
+          <a href="${menu.url}" target="${menu.target}" title="${menu.seq} + ' ' + ${menu.text}">
+            ${menu.text}
+          </a>
+        </li>
+      `;
+    }
+    appNavElement.innerHTML = template;
+
+  </script>
+</body>
+
+</html>

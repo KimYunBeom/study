@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Composing with Components - todo-item (구성 요소를 조립) - Vanilla 비교</title>
+</head>
+
+<body>
+  <div id="app-7">
+    <ol>
+      <todo-item>a</todo-item>
+    </ol>
+  </div>
+  <script>
+    const todoItem = document.querySelector('#app-7 ol todo-item');
+
+    const template = '<li>This is a todo</li>';
+
+    todoItem.innerHTML = template;
+  </script>
+</body>
+
+</html>

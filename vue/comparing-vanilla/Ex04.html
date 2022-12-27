@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loops (반복문) - Vanilla 비교</title>
+</head>
+
+<body>
+  <div id="app-4">
+    <ol>
+    </ol>
+  </div>
+  <script>
+    const todos = [{ text: 'Learn JavaScript' }, { text: 'Learn Vue' }, { text: 'Build something awesome' }];
+
+    const olElement = document.querySelector('#app-4').querySelector('ol');
+
+    for (const todo of todos) {
+      const liElement = document.createElement('li');
+
+      liElement.innerText = todo.text;
+
+      olElement.appendChild(liElement);
+    }
+  </script>
+</body>
+
+</html>

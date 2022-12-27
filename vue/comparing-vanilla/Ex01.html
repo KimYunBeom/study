@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- 캐릭터셋 UTF-8 -->
+  <meta charset="UTF-8" />
+  <!-- 구버전 웹 브라우저 지원 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- 반응형을 위한 창 크기와 초기 배율 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- 선언적 렌더링 : 변수를 미리 정의하면 프레임워크에 의해 자동으로 작동되는 방식 -->
+  <title>Declarative Rendering, Hello Vue (선언적 렌더링) - Vanilla 비교</title>
+</head>
+
+<body>
+  <div id="app">{{ message }}</div>
+  <script>
+    const message = 'Hello Vue!';
+    document.querySelector('#app').innerText = message;
+  </script>
+</body>
+
+</html>
