@@ -16,7 +16,9 @@
   <script>
     const pElement = document.querySelector('#app-5').querySelector('p');
 
-    const message = 'Hello Vue.js!';
+    let message = 'Hello Vue.js!';
+
+    pElement.innerText = message;
 
     const reverseMessage = () => {
       message = message.split('').reverse().join('');
