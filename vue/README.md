@@ -8,7 +8,7 @@
 
 - https://kyounghwan01.github.io/blog/Vue
 - https://v2.vuejs.org/v2/guide (vue2-cdn)
-- https://vuejs.org (vue3 Official)
+- https://vuejs.org (vue3 English Official)
 - https://v3-docs.vuejs-korea.org/guide/introduction.html (vue3 Korean)
 
 ### 기술 비교
@@ -40,7 +40,9 @@
 
 ### 과정(curriculum)
 
-#### vue2-cdn, vue2-webpack, vue3-vite, vue3-vite-sfc : Ex01 ~ Ex09
+#### vue2-cdn : Ex01 ~ Ex09
+
+참조 : https://v2.vuejs.org/v2/guide
 
 1. Declarative Rendering 1: \{\{ variable \}\}
 1. Declarative Rendering 2: :prop="variable"
@@ -52,7 +54,24 @@
 1. Composing with Components 2: \<ComponentName \/\>
 1. Composing with Components 3: \<ComponentName \/\>
 
+#### comparing-vanilla, comparing-jquery : Ex01 ~ Ex09
+
+참조 : My Brain
+
+1. vue2-cdn과 vanilla 방식 비교
+1. vue2-cdn과 jquery 방식 비교
+
+#### vue2-webpack, vue3-vite, vue3-vite-sfc : Ex01 ~ Ex09
+
+참조 : My Brain
+
+1. vue2-cdn과 vue2-webpack(npm 설치) 방식 비교
+1. vue2-cdn과 vue3-vite(npm 설치 + vite 기반 + vue 3) 방식 비교
+1. vue2-cdn과 vue3-vite(npm 설치 + vite 기반 + vue 3 + Single File Component) 방식 비교
+
 #### vue-class : C01 ~ C15
+
+참조 : My Brain
 
 1. Compare v-model with ref to v-model without ref
 1. vue-router
