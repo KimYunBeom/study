@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loops (반복문) - jQuery 비교</title>
+</head>
+
+<body>
+  <div id="app-4">
+    <ol>
+    </ol>
+  </div>
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
+  <script>
+    const todos = [{ text: 'Learn JavaScript' }, { text: 'Learn Vue' }, { text: 'Build something awesome' }];
+
+    const olElement = $('#app-4 ol');
+
+    for (const todo of todos) {
+      const liElement = $('<li>');
+
+      liElement.text(todo.text);
+
+      olElement.append(liElement);
+    }
+  </script>
+</body>
+
+</html>
