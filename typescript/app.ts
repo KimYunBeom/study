@@ -1,4 +1,4 @@
+let age: number;
+age = 30;
 const userName = 'Maximilian';
-// userName = 3;
-
 console.log(userName);
