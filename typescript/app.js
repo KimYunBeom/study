@@ -4,3 +4,4 @@ button.addEventListener('click', () => {
     console.log('Clicked!');
 });
 const map = new Map();
+//# sourceMappingURL=app.js.map
