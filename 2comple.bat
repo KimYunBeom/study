@@ -1,2 +1,2 @@
 cd typescript
-tsc app
+tsc -w
