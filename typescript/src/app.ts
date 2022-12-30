@@ -34,4 +34,18 @@ if (button) {
   button.addEventListener('click', (event) => console.log(event));
 }
 
-printOutput(add(5));
+// printOutput(add(5));
+
+const hobbies = ['Sports', 'Cooking'];
+const activeHobbies = ['Hiking'];
+
+activeHobbies.push(...hobbies);
+
+const person = {
+  name: 'Max',
+  age: 30,
+};
+
+const copiedPerson = { ...person };
+copiedPerson.age = 1;
+console.log(person.age, copiedPerson.age);
