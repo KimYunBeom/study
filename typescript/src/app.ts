@@ -1,9 +1,10 @@
 class Department {
-  // private id: string;
+  // private readonly id: string;
   // private name: string;
   private employees: string[] = [];
 
-  constructor(private id: string, public name: string) {
+  constructor(private readonly id: string, public name: string) {
+    // this.id = id;
     // this.name = n;
   }
 
@@ -13,6 +14,7 @@ class Department {
 
   addEmployee(employee: string) {
     // validation etc
+    // this.id = 'd2'; // readonly 때문에 불가능
     this.employees.push(employee);
   }
 
