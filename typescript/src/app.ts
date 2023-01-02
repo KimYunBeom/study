@@ -1,9 +1,9 @@
-const userName = 'Max';
+// const userName = 'Max';
 // userName = 'Maximilian';
-let age = 30;
+// let age = 30;
 
-age = 29;
-var result;
+// age = 29;
+// var result;
 
 // function add(a: number, b: number) {
 //   let result;
@@ -39,7 +39,7 @@ const activeHobbies = ['Hiking'];
 activeHobbies.push(...hobbies);
 
 const person = {
-  name: 'Max',
+  firstName: 'Max',
   age: 30,
 };
 
@@ -53,3 +53,16 @@ const add = (...numbers: number[]) => {
 
 const addedNumbers = add(5, 10, 2, 3.7);
 console.log(addedNumbers);
+
+// ---
+
+// const hobby1 = hobbies[0];
+// const hobby2 = hobbies[1];
+
+const [hobby1, hobby2, ...remainingHobbies] = hobbies; // Destructuring Assignment == Deep Copy, Different from origin variable.
+
+console.log(hobbies, hobby1, hobby2);
+
+const { firstName: userName, age } = person;
+
+console.log(userName, age, person);
