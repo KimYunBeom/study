@@ -1,4 +1,5 @@
 class Department {
+  static fiscalYear = 2020;
   // private readonly id: string;
   // private name: string;
   protected employees: string[] = []; // private과 비슷하지만 상속 class에게도 권한을 허용
@@ -6,6 +7,12 @@ class Department {
   constructor(private readonly id: string, public name: string) {
     // this.id = id;
     // this.name = n;
+    // console.log(this.fiscalYear); // Property 'fiscalYear' does not exist on type 'Department'. Did you mean to access the static member 'Department.fiscalYear' instead?ts(2576)
+    console.log(Department.fiscalYear);
+  }
+
+  static createEmployee(name: string) {
+    return { name };
   }
 
   describe(this: Department) {
@@ -71,6 +78,9 @@ class AccountingDepartment extends Department {
     console.log(this.reports);
   }
 }
+
+const employee1 = Department.createEmployee('Max');
+console.log(employee1, Department.fiscalYear);
 
 const it = new ITDepartment('d1', ['Max']);
 
