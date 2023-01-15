@@ -2,6 +2,7 @@
 <template>
   <h1>{{ route.name }}</h1>
   <p>
+    <!-- <button type="button" v-on:click="goHome">Home</button> -->
     <button type="button" @click="goHome">Home</button>
   </p>
 </template>

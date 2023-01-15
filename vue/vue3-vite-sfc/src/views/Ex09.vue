@@ -1,7 +1,7 @@
 <!-- Composing with Components - appNav, props (구성 요소를 조립) -->
 <template>
   <ol>
-    <appNav v-for="item in navList" :menu="item" :key="item.seq"></appNav>
+    <appNav v-for="item in navList" :menu="item"></appNav>
   </ol>
 </template>
 
